@@ -1,0 +1,116 @@
+.side-bar {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 70px;
+  background-color: white;
+  bottom: 0;
+  padding-bottom: 80px;
+  padding-top: 20px;
+  left: 0;
+  top: 60px;
+  align-items: center;
+}
+
+.home-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home-icon {
+  width: 24px;
+  margin-bottom: 7px;
+}
+
+.home-text {
+  font-size: 10px;
+  font-family: Roboto;
+}
+
+.explore-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.explore-icon {
+  width: 24px;
+  margin-bottom: 7px;
+}
+
+.explore-text {
+  font-size: 10px;
+  font-family: Roboto;
+}
+
+.subscriptions-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscriptions-icon {
+  width: 24px;
+  margin-bottom: 7px;
+}
+
+.subscriptions-text {
+  font-size: 10px;
+  font-family: Roboto;
+}
+
+.originals-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.originals-icon {
+  width: 24px;
+  margin-bottom: 7px;
+}
+
+.originals-text {
+  font-size: 10px;
+  font-family: Roboto;
+}
+
+.youtube-music-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.youtube-music-icon {
+  width: 24px;
+  margin-bottom: 7px;
+}
+
+.youtube-music-text {
+  font-size: 10px;
+  font-family: Roboto;
+}
+
+.library-tab {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.library-icon {
+  width: 24px;
+  margin-bottom: 7px;
+}
+
+.library-text {
+  font-size: 10px;
+  font-family: Roboto;
+}

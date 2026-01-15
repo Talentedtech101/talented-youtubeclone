@@ -1,0 +1,98 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(d\ pic.png);
+  background-size: 100vh;
+  margin: 0;
+  font-family: roboto;
+}
+
+header {
+  background-color: rgb(8, 13, 48);
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-left: 50px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+img,
+hamburger-menu {
+  width: 30px;
+  position: absolute;
+  filter: invert();
+  right: 30px;
+}
+
+.info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border-radius: 50px;
+  margin-top: 100px;
+  padding-top: 30px;
+  overflow: hidden;
+  box-shadow: ;
+}
+
+.info {
+  background: rgba(255, 255, 255, 0.08);
+  /* transparent box */
+  backdrop-filter: blur(10px);
+  /* glass blur */
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 40px;
+
+  box-shadow:
+    0 0 30px rgba(0, 180, 255, 0.35),
+    0 0 80px rgba(0, 180, 255, 0.15);
+
+  padding: 60px;
+  margin: 80px auto;
+  width: 80%;
+}
+
+.info::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: grey;
+  opacity: 0.3;
+  /* ONLY background fades */
+  z-index: 1;
+  border-radius: 50px;
+}
+
+.ui {
+  position: relative;
+  color: white;
+  z-index: 2;
+  text-align: center;
+  /* text above overlay */
+}
+
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+h3 {
+  margin-bottom: 0px;
+}
+
+h4 {
+  margin-bottom: 50px;
+}
+
+button {
+  color: white;
+  background-color: rgb(8, 13, 48);
+  padding: 10px 15px 10px 15px;
+  border: 2px solid white;
+}
