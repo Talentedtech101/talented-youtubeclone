@@ -13,6 +13,11 @@ body {
   color: rgb(255, 187, 0);
 }
 
+a{
+  text-decoration: none;
+  color : black;
+}
+
 .brand-name {
   position: absolute;
   left: 60px;
@@ -120,4 +125,5 @@ h4 {
   background-color: rgb(255, 187, 0);
   cursor: wait;
   
+
 }
